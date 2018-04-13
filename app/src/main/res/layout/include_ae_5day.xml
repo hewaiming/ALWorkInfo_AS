@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_bg_white"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio_Ae1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableBottom="@drawable/tab"
+            android:gravity="center"
+            android:tag="0"
+            android:text="最新一次效应"
+            android:textColor="@color/tab_color"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radio_Ae2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableBottom="@drawable/tab"
+            android:gravity="center"
+            android:tag="1"
+            android:text="前一次效应"
+            android:textColor="@color/tab_color"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radio_Ae3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableBottom="@drawable/tab"
+            android:gravity="center"
+            android:tag="2"
+            android:text="前二次效应"
+            android:textColor="@color/tab_color"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radio_Ae4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableBottom="@drawable/tab"
+            android:gravity="center"
+            android:tag="3"
+            android:text="前三次效应"
+            android:textColor="@color/tab_color"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radio_Ae5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableBottom="@drawable/tab"
+            android:gravity="center"
+            android:tag="4"
+            android:text="前四次效应"
+            android:textColor="@color/tab_color"
+            android:textSize="12sp" />
+    </RadioGroup>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

@@ -1,0 +1,382 @@
+[
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\more_show.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\more_show.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sort.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\sort.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\banner_fail.jpg",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\banner_fail.jpg"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\face.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alarm_list.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\alarm_list.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\area_avgv.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\area_avgv.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\real_potv.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\real_potv.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\long_click.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\long_click.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\red.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\red.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\swipe_left.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\swipe_left.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\known.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\known.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\gongyi_info.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\gongyi_info.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pot_status.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\pot_status.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fault_list.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\fault_list.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\up_gray.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\up_gray.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\scroll_vertica.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\scroll_vertica.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\banner_empty.jpg",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\banner_empty.jpg"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\msg_tips.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\msg_tips.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\error.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\error.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\day_table.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\day_table.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nb_abnorm.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\nb_abnorm.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\measure_data.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\measure_data.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\swipe_righ.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\swipe_righ.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\asc.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\asc.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sort_black.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\sort_black.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\press_and_hold.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\press_and_hold.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\line.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\line.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ae_nums.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\ae_nums.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\update_params.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\update_params.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\welcome.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\welcome.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\desc.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\desc.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\realtime_info.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\realtime_info.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ae_table.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\ae_table.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ae_long.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\ae_long.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pot_age.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\pot_age.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\error1.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\error1.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\banner_default.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\banner_default.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fault_more.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\fault_more.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\more.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\more.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jx_record.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\jx_record.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dot_blur.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\dot_blur.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dot_focus.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\dot_focus.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sort_blue.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\sort_blue.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\press.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\press.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ssdk_oks_ptr_ptr.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\ssdk_oks_ptr_ptr.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\down_gray.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\down_gray.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\set_params.png",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-hdpi\\set_params.png"
+    }
+]

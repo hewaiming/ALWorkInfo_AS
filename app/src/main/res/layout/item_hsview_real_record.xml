@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"   
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/tv_PotNo"
+        android:layout_width="24dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="3dp"
+        android:textSize="10sp"
+        android:text="槽号"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/text_black" />
+
+    <com.hewaiming.ALWorkInfo.HScrollListView.InterceptScrollContainer
+        android:id="@+id/scroollContainter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/tv_PotNo"       
+        android:focusable="false" >
+
+        <com.hewaiming.ALWorkInfo.HScrollListView.MyHScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_Name1"
+                    android:layout_width="86dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="10sp"
+                    android:text="记录名称"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_black" />
+
+                <TextView
+                    android:id="@+id/tv_Name2"
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="10sp"
+                    android:text="参数1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_black" />
+
+                <TextView
+                    android:id="@+id/tv_Name3"
+                    android:layout_width="66dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="10sp"
+                    android:text="参数2"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_black" />
+
+                <TextView
+                    android:id="@+id/tv_Ddate"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="10sp"
+                    android:text="发生时刻"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_black" />
+            </LinearLayout>
+        </com.hewaiming.ALWorkInfo.HScrollListView.MyHScrollView>
+    </com.hewaiming.ALWorkInfo.HScrollListView.InterceptScrollContainer>
+
+</RelativeLayout>

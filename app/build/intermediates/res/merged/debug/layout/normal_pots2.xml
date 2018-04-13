@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="26dp" >
+
+    <TextView
+        android:id="@+id/tv_Room21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"      
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="4dp"
+        android:text="二厂房一区:"
+        android:textColor="@color/text_black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_Room21_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_Room21"
+        android:layout_alignBottom="@+id/tv_Room21"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/tv_Room21"
+        android:text="未获取"
+        android:textColor="@color/theme_green"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_Room22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_Room21"
+        android:layout_alignBottom="@+id/tv_Room21"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/tv_Room21_sum"
+        android:text="二厂房二区:"
+        android:textColor="@color/text_black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_Room22_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_Room21"
+        android:layout_alignBottom="@+id/tv_Room21"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/tv_Room22"
+        android:text="未获取"
+        android:textColor="@color/theme_green"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_Room23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_Room21"
+        android:layout_alignBottom="@+id/tv_Room21"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/tv_Room22_sum"
+        android:text="二厂房三区:"
+        android:textColor="@color/text_black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_Room23_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_Room21"
+        android:layout_alignBottom="@+id/tv_Room21"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/tv_Room23"
+        android:text="未获取"
+        android:textColor="@color/theme_green"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_Room2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_Room21"
+        android:layout_alignBottom="@+id/tv_Room21"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/tv_Room23_sum"
+        android:text="二厂:"
+        android:textColor="@color/text_black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_Room2_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_Room21"
+        android:layout_alignBottom="@+id/tv_Room21"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/tv_Room2"
+        android:text="未获取"
+        android:textColor="@color/theme_green"
+        android:textSize="12sp" />
+
+</RelativeLayout>

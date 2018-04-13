@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\menu\\realtime.xml",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\menu\\realtime.xml"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\menu\\params.xml",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\menu\\params.xml"
+    }
+]

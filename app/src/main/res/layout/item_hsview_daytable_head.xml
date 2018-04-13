@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingLeft="5dp"
+    android:paddingTop="10dp" >
+
+    <RelativeLayout
+        android:id="@+id/Layout_fix"
+        android:layout_width="38dp"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tv_PotNo_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="0dp"
+            android:text="槽号"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_black"
+            android:textSize="11sp" />
+
+        <ImageView
+            android:id="@+id/iv_PotNo"
+            android:layout_width="@dimen/sort_image_width"
+            android:layout_height="@dimen/sort_image_hight"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/sort" />
+    </RelativeLayout>
+
+    <com.hewaiming.ALWorkInfo.HScrollListView.InterceptScrollContainer_Header
+        android:id="@+id/scroollContainter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/Layout_fix"
+        android:focusable="false" >
+
+        <com.hewaiming.ALWorkInfo.HScrollListView.MyHScrollView
+            android:id="@+id/horizontalScrollView1_head"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_PotSt_head"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="2dp"
+                    android:text="槽状态"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_black"
+                    android:textSize="11sp" />
+
+                <ImageView
+                    android:id="@+id/iv_PotSt"
+                    android:layout_width="@dimen/sort_image_width"
+                    android:layout_height="@dimen/sort_image_hight"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/sort" />
+
+                <TextView
+                    android:id="@+id/tv_RunTime_head"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="2dp"
+                    android:text="运行时间"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_black"
+                    android:textSize="11sp" />
+
+                <ImageView
+                    android:id="@+id/iv_RunTime"
+                    android:layout_width="@dimen/sort_image_width"
+                    android:layout_height="@dimen/sort_image_hight"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/sort" />
+
+                 <TextView
+                    android:id="@+id/tv_YHLCnt_head"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="2dp"
+                    android:text="加料量"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_black"
+                    android:textSize="11sp" />
+
+                <ImageView
+                    android:id="@+id/iv_YHLCnt"
+                    android:layout_width="@dimen/sort_image_width"
+                    android:layout_height="@dimen/sort_image_hight"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/sort" />
+                
+                 <TextView
+                    android:id="@+id/tv_JLCnt_head"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="2dp"
+                    android:text="加料次数"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_black"
+                    android:textSize="11sp" />
+
+                <ImageView
+                    android:id="@+id/iv_JLCnt"
+                    android:layout_width="@dimen/sort_image_width"
+                    android:layout_height="@dimen/sort_image_hight"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/sort" />
+                <TextView
+                    android:id="@+id/tv_SetV_head"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="2dp"
+                    android:text="设定电压"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_black"
+                    android:textSize="11sp" />
+
+                <ImageView
+                    android:id="@+id/iv_SetV"
+                    android:layout_width="@dimen/sort_image_width"
+                    android:layout_height="@dimen/sort_image_hight"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/sort" />
+
+                <TextView
+                    android:id="@+id/tv_RealSetV_head"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="2dp"
+                    android:text="实设电压"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_black"
+                    android:textSize="11sp" />
+
+                <ImageView
+                    android:id="@+id/iv_RealSetV"
+                    android:layout_width="@dimen/sort_image_width"
+                    android:layout_height="@dimen/sort_image_hight"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/sort" />
+
+                <TextView
+                    android:id="@+id/tv_WorkV_head"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="2dp"
+                    android:text="工作电压"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_black"
+                    android:textSize="11sp" />
+
+                <ImageView
+                    android:id="@+id/iv_WorkV"
+                    android:layout_width="@dimen/sort_image_width"
+                    android:layout_height="@dimen/sort_image_hight"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/sort" />
+
+                <TextView
+                    android:id="@+id/tv_AverageV_head"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="2dp"
+                    android:text="平均电压"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_black"
+                    android:textSize="11sp" />
+
+                <ImageView
+                    android:id="@+id/iv_AverageV"
+                    android:layout_width="@dimen/sort_image_width"
+                    android:layout_height="@dimen/sort_image_hight"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/sort" />
+
+                <TextView
+                    android:id="@+id/tv_AeV_head"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="2dp"
+                    android:text="效应电压"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_black"
+                    android:textSize="11sp" />
+
+                <ImageView
+                    android:id="@+id/iv_AeV"
+                    android:layout_width="@dimen/sort_image_width"
+                    android:layout_height="@dimen/sort_image_hight"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/sort" />
+
+                <TextView
+                    android:id="@+id/tv_AeTime_head"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="2dp"
+                    android:text="效应时长"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_black"
+                    android:textSize="11sp" />
+
+                <ImageView
+                    android:id="@+id/iv_AeTime"
+                    android:layout_width="@dimen/sort_image_width"
+                    android:layout_height="@dimen/sort_image_hight"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/sort" />
+
+                <TextView
+                    android:id="@+id/tv_AeCnt_head"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="2dp"
+                    android:text="效应次数"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_black"
+                    android:textSize="11sp" />
+
+                <ImageView
+                    android:id="@+id/iv_AeCnt"
+                    android:layout_width="@dimen/sort_image_width"
+                    android:layout_height="@dimen/sort_image_hight"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/sort" />
+
+                <TextView
+                    android:id="@+id/tv_DybTime_head"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="2dp"
+                    android:text="电压摆时长"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_black"
+                    android:textSize="11sp" />
+
+                <ImageView
+                    android:id="@+id/iv_DybTime"
+                    android:layout_width="@dimen/sort_image_width"
+                    android:layout_height="@dimen/sort_image_hight"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/sort" />
+
+                <TextView
+                    android:id="@+id/tv_ALFCnt_head"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="2dp"
+                    android:text="氟化铝下料量"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_black"
+                    android:textSize="11sp" />
+
+                <ImageView
+                    android:id="@+id/iv_ALFCnt"
+                    android:layout_width="@dimen/sort_image_width"
+                    android:layout_height="@dimen/sort_image_hight"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/sort" />
+
+                <TextView
+                    android:id="@+id/tv_ALCntZSL_head"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="2dp"
+                    android:text="出铝指示量"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_black"
+                    android:textSize="11sp" />
+
+                <ImageView
+                    android:id="@+id/iv_ALCntZSL"
+                    android:layout_width="@dimen/sort_image_width"
+                    android:layout_height="@dimen/sort_image_hight"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/sort" />
+
+                <TextView
+                    android:id="@+id/tv_Ddate_head"
+                    android:layout_width="64dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="2dp"
+                    android:text="日期"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_black"
+                    android:textSize="11sp" />
+
+                <ImageView
+                    android:id="@+id/iv_Ddate"
+                    android:layout_width="@dimen/sort_image_width"
+                    android:layout_height="@dimen/sort_image_hight"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/sort" />
+            </LinearLayout>
+        </com.hewaiming.ALWorkInfo.HScrollListView.MyHScrollView>
+    </com.hewaiming.ALWorkInfo.HScrollListView.InterceptScrollContainer_Header>
+
+</RelativeLayout>

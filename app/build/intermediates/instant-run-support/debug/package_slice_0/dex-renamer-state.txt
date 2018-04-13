@@ -1,0 +1,4 @@
+#Fri Apr 13 13:42:19 CST 2018
+base.0=E\:\\ALWorkInfo_AS\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

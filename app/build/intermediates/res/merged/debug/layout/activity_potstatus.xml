@@ -1,0 +1,147 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_bg_gray"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hewaiming.ALWorkInfo.ui.PotStatusActivity" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        layout="@layout/include_back" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_margin="6dp"
+        android:background="@color/base_bg_white"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/spinner_area"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:layout_weight="3"
+            android:prompt="@string/area"
+            android:spinnerMode="dialog" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Layout_PotStatus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <include
+            android:id="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            layout="@layout/item_hsview_potstatus" />
+
+        <RelativeLayout
+            android:id="@+id/Layout_Context"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <FrameLayout
+                android:id="@+id/fragmentContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/Layout_Info" >
+
+                <ListView
+                    android:id="@+id/lv_PotStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@color/LV_bg"
+                    android:scrollbars="horizontal"
+                    android:visibility="visible" >
+                </ListView>
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/Layout_Info"
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/head_sharp_light_green"
+                android:orientation="horizontal"
+                android:visibility="visible" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                     android:layout_marginRight="2dp"
+                    android:text="系列电压(V):"
+                    android:textColor="@color/base_color_text_white"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/tv_sysV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="0.00"
+                    android:textColor="@color/base_color_text_white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="22dp"
+                     android:layout_marginRight="2dp"
+                    android:text="系列电流(KA):"
+                    android:textColor="@color/base_color_text_white"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/tv_sysI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="0.00"
+                    android:textColor="@color/base_color_text_white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="2dp"
+                    android:text="厂房电压(V):"
+                    android:textColor="@color/base_color_text_white"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/tv_RoomV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="0.00"
+                    android:textColor="@color/base_color_text_white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

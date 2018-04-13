@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="slide_attrs"><attr format="reference|integer" name="slide_onloading"/><attr format="reference|integer" name="slide_onfail"/></declare-styleable>
+    <string name="app_name">SlideShowView</string>
+</resources>

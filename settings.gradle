@@ -1,0 +1,3 @@
+include ':oneKeyShare'
+include ':slideShowView'
+include ':app'

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_bg_white"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tv_PotNo_head"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_weight="1"
+        android:text="PotNo"
+        android:textColor="@color/header_text"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/tv_PotSt_head"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_weight="1"
+        android:text="potst"
+        android:textColor="@color/header_text"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/tv_RunTime_head"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_weight="1"
+        android:text="runTime"
+        android:textColor="@color/header_text"
+        android:textSize="9sp" />
+    
+    <TextView
+        android:id="@+id/tv_HylCnt_head"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_weight="1"
+        android:text="HylCnt"
+        android:textColor="@color/header_text"
+        android:textSize="9sp" />
+    
+    <TextView
+        android:id="@+id/tv_JLCnt_head"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_weight="1"
+        android:text="JLCnt"
+        android:textColor="@color/header_text"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/tv_SetV_head"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_weight="1"
+        android:text="setv"
+        android:textColor="@color/header_text"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/tv_RealSetV_head"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_weight="1"
+        android:text="realsetv"
+        android:textColor="@color/header_text"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/tv_WorkV_head"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_weight="1"
+        android:text="workv"
+        android:textColor="@color/header_text"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/tv_AverageV_head"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_weight="1"
+        android:text="averagev"
+        android:textColor="@color/header_text"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/tv_AeV_head"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_weight="1"
+        android:text="Aev"
+        android:textColor="@color/header_text"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/tv_AeTime_head"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_weight="1"
+        android:text="Aetime"
+        android:textColor="@color/header_text"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/tv_AeCnt_head"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_weight="1"
+        android:text="Aecnt"
+        android:textColor="@color/header_text"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/tv_DybTime_head"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_weight="1"
+        android:text="dybtime"
+        android:textColor="@color/header_text"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/tv_Ddate_head"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_weight="1"
+        android:text="ddate"
+        android:textColor="@color/header_text"
+        android:textSize="9sp" />
+
+</LinearLayout>

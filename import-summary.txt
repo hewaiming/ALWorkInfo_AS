@@ -1,0 +1,112 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From ALWorkInfo:
+* ic_launcher-web.png
+* proguard-project.txt
+From OneKeyShare:
+* OneKeyShare-master.iml
+* build.gradle
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:23.4.0
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:23.4.0
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+android-support-v7-appcompat-r23-2-1 => [com.android.support:appcompat-v7:23.4.0]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In OneKeyShare:
+* AndroidManifest.xml => oneKeyShare\src\main\AndroidManifest.xml
+* libs\MobCommons-2017.0322.0931.jar => oneKeyShare\libs\MobCommons-2017.0322.0931.jar
+* libs\MobTools-2017.0322.0931.jar => oneKeyShare\libs\MobTools-2017.0322.0931.jar
+* libs\ShareSDK-Core-2.8.2.jar => oneKeyShare\libs\ShareSDK-Core-2.8.2.jar
+* libs\ShareSDK-QQ-2.8.2.jar => oneKeyShare\libs\ShareSDK-QQ-2.8.2.jar
+* libs\ShareSDK-QZone-2.8.2.jar => oneKeyShare\libs\ShareSDK-QZone-2.8.2.jar
+* libs\ShareSDK-ShortMessage-2.8.2.jar => oneKeyShare\libs\ShareSDK-ShortMessage-2.8.2.jar
+* libs\ShareSDK-Wechat-2.8.2.jar => oneKeyShare\libs\ShareSDK-Wechat-2.8.2.jar
+* libs\ShareSDK-Wechat-Core-2.8.2.jar => oneKeyShare\libs\ShareSDK-Wechat-Core-2.8.2.jar
+* libs\ShareSDK-Wechat-Favorite-2.8.2.jar => oneKeyShare\libs\ShareSDK-Wechat-Favorite-2.8.2.jar
+* libs\ShareSDK-Wechat-Moments-2.8.2.jar => oneKeyShare\libs\ShareSDK-Wechat-Moments-2.8.2.jar
+* res\ => oneKeyShare\src\main\res\
+* src\ => oneKeyShare\src\main\java\
+In SlideShowView:
+* AndroidManifest.xml => slideShowView\src\main\AndroidManifest.xml
+* libs\universal-image-loader-1.9.5.jar => slideShowView\libs\universal-image-loader-1.9.5.jar
+* lint.xml => slideShowView\lint.xml
+* res\ => slideShowView\src\main\res\
+* src\ => slideShowView\src\main\java\
+In ALWorkInfo:
+* AndroidManifest.xml => aLWorkInfo\src\main\AndroidManifest.xml
+* assets\ => aLWorkInfo\src\main\assets\
+* libs\MobCommons-2017.0322.0931.jar => aLWorkInfo\libs\MobCommons-2017.0322.0931.jar
+* libs\MobTools-2017.0322.0931.jar => aLWorkInfo\libs\MobTools-2017.0322.0931.jar
+* libs\mpandroidchartlibrary-2-2-4.jar => aLWorkInfo\libs\mpandroidchartlibrary-2-2-4.jar
+* libs\nineoldandroids-2.4.0.jar => aLWorkInfo\libs\nineoldandroids-2.4.0.jar
+* libs\org.apache.http.legacy.jar => aLWorkInfo\libs\org.apache.http.legacy.jar
+* libs\ShareSDK-Core-2.8.2.jar => aLWorkInfo\libs\ShareSDK-Core-2.8.2.jar
+* libs\ShareSDK-QQ-2.8.2.jar => aLWorkInfo\libs\ShareSDK-QQ-2.8.2.jar
+* libs\ShareSDK-QZone-2.8.2.jar => aLWorkInfo\libs\ShareSDK-QZone-2.8.2.jar
+* libs\ShareSDK-SinaWeibo-2.8.2.jar => aLWorkInfo\libs\ShareSDK-SinaWeibo-2.8.2.jar
+* libs\ShareSDK-Wechat-2.8.2.jar => aLWorkInfo\libs\ShareSDK-Wechat-2.8.2.jar
+* libs\ShareSDK-Wechat-Core-2.8.2.jar => aLWorkInfo\libs\ShareSDK-Wechat-Core-2.8.2.jar
+* libs\ShareSDK-Wechat-Favorite-2.8.2.jar => aLWorkInfo\libs\ShareSDK-Wechat-Favorite-2.8.2.jar
+* libs\ShareSDK-Wechat-Moments-2.8.2.jar => aLWorkInfo\libs\ShareSDK-Wechat-Moments-2.8.2.jar
+* libs\universal-image-loader-1.9.5.jar => aLWorkInfo\libs\universal-image-loader-1.9.5.jar
+* lint.xml => aLWorkInfo\lint.xml
+* res\ => aLWorkInfo\src\main\res\
+* src\ => aLWorkInfo\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

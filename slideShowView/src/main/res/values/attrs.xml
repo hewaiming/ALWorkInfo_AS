@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="slide_attrs">
+        <attr name="slide_onloading" format="reference|integer"></attr>
+        <attr name="slide_onfail" format="reference|integer"></attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Layout_backgroup"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black_semi_transparent"
+    android:padding="0.0dip" >
+
+    <ImageView
+        android:id="@+id/ivNavigater_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:src="@drawable/known" />
+
+    <ImageView
+        android:id="@+id/ivNavigater_scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ivNavigater_click"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/scroll_vertica" />
+
+    <ImageView
+        android:id="@+id/ivNavigater_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ivNavigater_scroll"
+        android:layout_alignLeft="@+id/ivNavigater_click"
+        android:layout_marginBottom="27dp"
+        android:src="@drawable/long_click" />
+
+    <ImageView
+        android:id="@+id/ivNavigater_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ivNavigater_help"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/press_and_hold" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivNavigater_left"
+        android:layout_alignLeft="@+id/ivNavigater_scroll"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:src="@drawable/swipe_righ" />
+
+    <ImageView
+        android:id="@+id/ivNavigater_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ivNavigater_top"
+        android:layout_margin="0.0dip"
+        android:layout_toLeftOf="@+id/ivNavigater_help"
+        android:adjustViewBounds="true"
+        android:src="@drawable/swipe_left" />
+
+</RelativeLayout>

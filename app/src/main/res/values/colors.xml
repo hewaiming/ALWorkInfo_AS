@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="head_bg">#8BC34A</color>
+    <color name="text_white">#ffffff</color>
+    <color name="base_bg_gray">#EEEEEE</color>
+    <color name="header_bg">#DCEDC8</color>
+    <color name="base_bg_white">#ffffff</color>
+    <color name="text_black">#212121</color>
+    <color name="text_gray2">#727272</color>
+    <color name="text_green">#007600</color>
+    <color name="header_plus_bg">#CCCCCC</color>
+    <color name="header_text">#727272</color>
+    <color name="holo_blue">#FF33E5B5</color>
+    <color name="base_actionbar_bg">#000000</color>
+    <color name="base_action_bar_title_color">#2f2725</color>
+    <color name="base_tab_indicator_text_color">#f82c22</color>
+    <color name="base_menu_left_bg">#393c44</color>
+    <color name="pull_refresh_textview">#000000</color>
+    <color name="base_color_text_black">#3e3e39</color>
+    <color name="base_color_text_blue">#1E90FF</color>
+    <color name="base_color_text_green">#8BC34A</color>
+    <color name="base_color_text_darkgreen">#388E3C</color>
+    <color name="base_color_text_darkyellow">#ec6800</color>
+    <color name="base_color_text_darkred">#be002f</color>
+    <color name="base_color_text_gray">#9fa0a0</color>
+    <color name="base_color_text_white">#ffffff</color>
+    <color name="home_item_color_bg">#f4f6f6</color>
+    <color name="base_bg">#f4f6f6</color>
+    <color name="LV_bg">#FFFFFF</color>
+    <color name="LV_foot_bg">#F0FFFF</color>
+    <color name="button_bg">#ffffff</color>
+    <color name="theme_green">#388E3C</color>
+    <color name="theme_gray">#9fa0a0</color>
+    
+    <!-- zxing -->
+    <color name="color_half_transparent">#b0000000</color>
+    <color name="color_transparent_bg">#80000000</color>
+    <color name="color_transparent_bg1">#e0000000</color>
+
+    <!-- emot -->
+    <color name="msg_emote_divider">#ffa1a1a1</color>
+    <color name="color_bottom_bg">#272a2e</color>
+    <color name="color_bottom_text_normal">#9da0a4</color>
+    <color name="color_bottom_text_press">#6BE61A</color>
+    <color name="text_gray">#969696</color>
+    <color name="transparent">#00000000</color>
+    <color name="msg_chat_bg">#eceff4</color>
+    <color name="theme_bg_color">#f0f2f5</color>
+    <color name="color_theme">#489cfa</color>
+    <color name="c_f98800">#ed4e23</color>
+    <color name="dialog_color_title">#f82c22</color>
+    <color name="guide_color">#898989</color>
+    <color name="layout_bg_color">#f8f8f8</color>
+    <color name="common_bg">#fcfcfc</color>
+    <color name="header_listview">#F7F7F7</color>
+
+    <!-- float button -->
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#FF4081</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+    <color name="green">#2ecc71</color>
+    <color name="green_pressed">#27ae60</color>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  
+    android:background="@@color/base_bg_gray"
+    android:orientation="vertical" >
+
+    <!--
+     GridView是可滚动的网格。一般用来显示多张图片。
+     android:horizontalSpacing="5dp" 两列之间的间距是5dp
+     android:verticalSpacing="5dp" 两行之间的间距是5dp
+     android:stretchMode="spacingWidth" 缩放与列宽大小同步
+     android:numColumns="auto_fit" 本来是一行显示几个，现在改为自动分配
+    -->
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="8dp"
+        android:background="@color/base_bg_white"
+        android:gravity="center_horizontal"
+        android:horizontalSpacing="12dp"     
+        android:numColumns="3"
+        android:verticalSpacing="12dp" />
+    
+</LinearLayout>

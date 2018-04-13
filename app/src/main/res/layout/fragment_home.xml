@@ -1,0 +1,466 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_bg_gray"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hewaiming.ALWorkInfo.fragment.HomeFragment" >
+
+    <include layout="@layout/head_main_include" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="136dp" >
+        <io.github.ylbfdev.slideshowview.SlideShowView
+            android:id="@+id/MySlideShowView"
+            android:layout_width="fill_parent"
+            android:layout_height="136dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="0dp"           
+            app:slide_onloading="@drawable/loading_slideshowview" >
+        </io.github.ylbfdev.slideshowview.SlideShowView>
+
+        <ImageView
+            android:id="@+id/iv_NoWiFi"
+            android:layout_width="match_parent"
+            android:layout_height="136dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/no_wifi"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/layout_more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/base_bg_white"
+            android:orientation="vertical" >
+
+            <!-- 正常槽数量 -->
+
+            <RelativeLayout
+                android:id="@+id/Normal_Layout"
+                android:layout_width="match_parent"
+                android:layout_height="36dp" >
+
+                <ImageView
+                    android:id="@+id/iv_NormalPot"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/normal_pot" />
+
+                <TextView
+                    android:id="@+id/tv_NormalPot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toRightOf="@+id/iv_NormalPot"
+                    android:text="运行槽数量:"
+                    android:textColor="@drawable/tab_textcolor"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_potTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/tv_NormalPot"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="4dp"
+                    android:layout_toRightOf="@+id/tv_NormalPot"
+                    android:text="未获取"
+                    android:textColor="@color/theme_green"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/iv_refresh_pots"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/refresh" />
+            </RelativeLayout>
+            <!-- 直线 -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:background="#d2d2d2" />
+
+            <include layout="@layout/normal_pots1" />
+
+            <!-- 直线 -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:background="#d2d2d2" />
+
+            <include layout="@layout/normal_pots2" />
+
+            <!-- 空行 -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15px"
+                android:background="@color/base_bg_gray" />
+
+            <!-- 效应系数 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="36dp" >
+
+                <ImageView
+                    android:id="@+id/iv_AE"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/ae_ratio" />
+
+                <TextView
+                    android:id="@+id/tv_AeTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@+id/iv_AE"
+                    android:text="效应系数"
+                    android:textColor="@drawable/tab_textcolor"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/iv_refresh_ae"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/refresh" />
+            </RelativeLayout>
+            <!-- 直线 -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:background="#d2d2d2" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/Ae_chart"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:visibility="visible" />
+            <!-- 空行 -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15px"
+                android:background="@color/base_bg_gray" />
+            <!-- 平均电压部分 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="36dp" >
+
+                <ImageView
+                    android:id="@+id/iv_AvgV"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/dy" />
+
+                <TextView
+                    android:id="@+id/tv_AvgV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toRightOf="@+id/iv_AvgV"
+                    android:text="平均电压(V)"
+                    android:textColor="@drawable/tab_textcolor"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/iv_refresh_avgv"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/refresh" />
+            </RelativeLayout>
+            <!-- 直线 -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:background="#d2d2d2" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/AvgV_chart"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:visibility="visible" />
+            <!-- 空行 -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15px"
+                android:background="@color/base_bg_gray" />
+            <!-- 电解温度部分 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="36dp" >
+
+                <ImageView
+                    android:id="@+id/iv_DJWD"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/djwd" />
+
+                <TextView
+                    android:id="@+id/tv_DJWD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toRightOf="@+id/iv_DJWD"
+                    android:text="电解温度(°C)"
+                    android:textColor="@drawable/tab_textcolor"
+                    android:textSize="11sp" />
+
+                <ImageButton
+                    android:id="@+id/imgbtn_show_DJWDChart"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toLeftOf="@+id/iv_refresh_djwd"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/down_gray" />
+
+                <ImageView
+                    android:id="@+id/iv_refresh_djwd"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/refresh"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+            <!-- 直线 -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:background="#d2d2d2" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/DJWD_chart"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:visibility="gone" />
+            <!-- 空行 -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15px"
+                android:background="@color/base_bg_gray" />
+
+            <!-- 分子比部分 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="36dp" >
+
+                <ImageView
+                    android:id="@+id/iv_FZB"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/fzb" />
+
+                <TextView
+                    android:id="@+id/tv_FZB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toRightOf="@+id/iv_FZB"
+                    android:text="分子比(%)"
+                    android:textColor="@drawable/tab_textcolor"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/imgbtn_show_FZBChart"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toLeftOf="@+id/iv_refresh_fzb"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/down_gray" />
+
+                <ImageView
+                    android:id="@+id/iv_refresh_fzb"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/refresh"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+            <!-- 直线 -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:background="#d2d2d2" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/FZB_chart"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:visibility="gone" />
+            <!-- 空行 -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15px"
+                android:background="@color/base_bg_gray" />
+            <!-- 氧化铝浓度部分 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="36dp" >
+
+                <ImageView
+                    android:id="@+id/iv_YHLND"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/yhlnd" />
+
+                <TextView
+                    android:id="@+id/tv_YHLND"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toRightOf="@+id/iv_YHLND"
+                    android:text="氧化铝浓度(%)"
+                    android:textColor="@drawable/tab_textcolor"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/imgbtn_show_YHLNDChart"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toLeftOf="@+id/iv_refresh_yhlnd"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/down_gray" />
+
+                <ImageView
+                    android:id="@+id/iv_refresh_yhlnd"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/refresh"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+            <!-- 直线 -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:background="#d2d2d2" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/YHLND_chart"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:visibility="gone" />
+            <!-- 空行 -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15px"
+                android:background="@color/base_bg_gray" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
