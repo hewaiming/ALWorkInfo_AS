@@ -12,6 +12,25 @@
                         "endLines": "6,7,8,14,20,21,22,25,26,27",
                         "endColumns": "12,70,82,12,12,119,62,12,62,131",
                         "endOffsets": "326,397,480,890,1312,1432,1495,1649,1712,1844"
+                    },
+                    "to": {
+                        "startLines": "5,10,11,12,18,24,25,26,29,30",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "206,482,553,636,1046,1468,1588,1651,1805,1868",
+                        "endLines": "9,10,11,17,23,24,25,28,29,30",
+                        "endColumns": "12,70,82,12,12,119,62,12,62,131",
+                        "endOffsets": "477,548,631,1041,1463,1583,1646,1800,1863,1995"
+                    }
+                },
+                {
+                    "source": "E:\\ALWorkInfo_AS\\badgeViewLib\\build\\intermediates\\bundles\\debug\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
                     }
                 }
             ]
@@ -28,6 +47,25 @@
                         "endLines": "6,7,8,14,20,21,22,25,26,27",
                         "endColumns": "12,70,82,12,12,119,62,12,62,131",
                         "endOffsets": "326,397,480,890,1312,1432,1495,1649,1712,1844"
+                    },
+                    "to": {
+                        "startLines": "5,10,11,12,18,24,25,26,29,30",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "206,482,553,636,1046,1468,1588,1651,1805,1868",
+                        "endLines": "9,10,11,17,23,24,25,28,29,30",
+                        "endColumns": "12,70,82,12,12,119,62,12,62,131",
+                        "endOffsets": "477,548,631,1041,1463,1583,1646,1800,1863,1995"
+                    }
+                },
+                {
+                    "source": "E:\\ALWorkInfo_AS\\badgeViewLib\\build\\intermediates\\bundles\\debug\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
                     }
                 }
             ]

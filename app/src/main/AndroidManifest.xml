@@ -29,7 +29,7 @@
         android:icon="@drawable/error"
         android:label="@string/app_name"      
         android:largeHeap="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/SplashTheme" >
         <activity
             android:name="com.hewaiming.ALWorkInfo.ui.WelcomeActivity"
             android:label="@string/app_name"

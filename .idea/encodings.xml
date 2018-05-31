@@ -7,12 +7,16 @@
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/hewaiming/ALWorkInfo/Popup/TitlePopup.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/hewaiming/ALWorkInfo/Popup/TitlePopup_More.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/hewaiming/ALWorkInfo/Popup/Util.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/hewaiming/ALWorkInfo/SlideBottomPanel/SlideBottomPanel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/hewaiming/ALWorkInfo/Update/UpdateManager.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/hewaiming/ALWorkInfo/adapter/HScrollView/HSView_AeCntAdapter.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/hewaiming/ALWorkInfo/adapter/HScrollView/HSView_AeRecAdapter.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/hewaiming/ALWorkInfo/adapter/HScrollView/HSView_AeTimeAdapter.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/hewaiming/ALWorkInfo/adapter/HScrollView/HSView_AreaAeAdapter.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/hewaiming/ALWorkInfo/adapter/HScrollView/HSView_AreaAvgVAdapter.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/hewaiming/ALWorkInfo/adapter/HScrollView/HSView_DayTableAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/hewaiming/ALWorkInfo/config/ImageConfig.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/hewaiming/ALWorkInfo/config/ImageLoadOptions.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/hewaiming/ALWorkInfo/config/MyConst.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/hewaiming/ALWorkInfo/fragment/DJFragment.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/hewaiming/ALWorkInfo/fragment/Fragment_Ae1.java" charset="GBK" />

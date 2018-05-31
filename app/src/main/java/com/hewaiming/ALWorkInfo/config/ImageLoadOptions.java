@@ -14,7 +14,7 @@ public class ImageLoadOptions {
 	public static DisplayImageOptions getOptions() {
 		DisplayImageOptions options = new DisplayImageOptions.Builder()
 				// // 设置图片在下载期间显示的图片
-				.showStubImage(anim.progress_round_big)
+				.showStubImage(R.drawable.progress_round_big)
 				// // 设置图片Uri为空或是错误的时候显示的图片
 				 .showImageForEmptyUri(R.drawable.banner_empty)
 				// // 设置图片加载/解码过程中错误时候显示的图片

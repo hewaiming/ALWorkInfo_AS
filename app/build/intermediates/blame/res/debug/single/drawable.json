@@ -28,6 +28,10 @@
         "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable\\tab.xml"
     },
     {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_round.xml",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable\\progress_round.xml"
+    },
+    {
         "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_login_selector.xml",
         "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable\\btn_login_selector.xml"
     },
@@ -194,6 +198,10 @@
     {
         "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_login_selector_normal_yellow.xml",
         "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable\\btn_login_selector_normal_yellow.xml"
+    },
+    {
+        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_round_big.xml",
+        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable\\progress_round_big.xml"
     },
     {
         "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_dj_btn.xml",

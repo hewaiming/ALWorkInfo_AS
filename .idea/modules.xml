@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ALWorkInfo_AS.iml" filepath="$PROJECT_DIR$/ALWorkInfo_AS.iml" />
-      <module fileurl="file://E:\ALWorkInfo_AS\app\aLWorkInfo.iml" filepath="E:\ALWorkInfo_AS\app\aLWorkInfo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/badgeViewLib/badgeViewLib.iml" filepath="$PROJECT_DIR$/badgeViewLib/badgeViewLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/oneKeyShare/oneKeyShare.iml" filepath="$PROJECT_DIR$/oneKeyShare/oneKeyShare.iml" />
       <module fileurl="file://$PROJECT_DIR$/slideShowView/slideShowView.iml" filepath="$PROJECT_DIR$/slideShowView/slideShowView.iml" />
     </modules>

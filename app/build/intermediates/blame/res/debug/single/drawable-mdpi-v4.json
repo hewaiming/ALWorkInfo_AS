@@ -76,10 +76,6 @@
         "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-mdpi\\mm_title_btn_receiver_normal.png"
     },
     {
-        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pageload_icon1.png",
-        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-mdpi\\pageload_icon1.png"
-    },
-    {
         "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\32c847d148a4a6d9f6294abb164af0a0\\res\\drawable-mdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
     },
@@ -342,10 +338,6 @@
     {
         "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\progress_2.png",
         "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-mdpi\\progress_2.png"
-    },
-    {
-        "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pageload_icon2.png",
-        "source": "E:\\ALWorkInfo_AS\\app\\src\\main\\res\\drawable-mdpi\\pageload_icon2.png"
     },
     {
         "merged": "E:\\ALWorkInfo_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",

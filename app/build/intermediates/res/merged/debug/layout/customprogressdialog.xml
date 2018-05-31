@@ -12,7 +12,7 @@
         android:id="@+id/loadingImageView"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:background="@anim/progress_round" />
+        android:background="@drawable/progress_round" />
 
     <TextView
         android:id="@+id/id_tv_loadingmsg"
