@@ -14,11 +14,6 @@ import bean.PotStatus;
 import bean.PotStatusDATA;
 import bean.RealTime;
 import bean.RequestAction;
-
-/**
- * Socket收发�? 通过Socket发�?�数据，并使用新线程监听Socket接收到的数据
- * 
- */
 public abstract class SocketTransceiver implements Runnable {
 
 	private static final String TAG = "SocketTransceiver";
@@ -49,11 +44,9 @@ public abstract class SocketTransceiver implements Runnable {
 			socket.shutdownInput();
 			in.close();
 		} catch (Exception e) {
-			Log.e(TAG,"关闭SOCKET时出错");		
+			Log.e(TAG,"SOCKET closing error");
 		}
 	}
-
-	// 向服务端发�?�操作命�?
 	public boolean send(RequestAction action) {
 		if (out != null) {
 			try {
@@ -63,15 +56,11 @@ public abstract class SocketTransceiver implements Runnable {
 				return true;
 			} catch (Exception e) {
 				e.printStackTrace();
-				Log.e(TAG,"SOCKET发送数据时出错:"+e.getMessage());							
+				Log.e(TAG,"SOCKET send data error "+e.getMessage());
 			}
 		}
 		return false;
 	}
-
-	/**
-	 * 监听Socket接收的数�?(新线程中运行)
-	 */
 	@Override
 	public void run() {
 		try {
@@ -79,7 +68,7 @@ public abstract class SocketTransceiver implements Runnable {
 			out = new DataOutputStream(this.socket.getOutputStream());
 			objectInputStream = new ObjectInputStream(this.socket.getInputStream());			
 		} catch (IOException e) {
-			Log.e(TAG,"SOCKET RUN时出错");
+			Log.e(TAG,"SOCKET RUNing error ");
 			runFlag = false;
 		}
 		while (runFlag) {
@@ -99,12 +88,11 @@ public abstract class SocketTransceiver implements Runnable {
 					}
 				}
 			} catch (IOException e) {
-				Log.e(TAG,"SOCKET 接收数据时出错");			
+				Log.e(TAG,"SOCKET receive data error");
 
 			} catch (ClassNotFoundException e) {
-				Log.e(TAG,"SOCKET 接收数据时出错");	
+				Log.e(TAG,"SOCKET receive data error");
 			}
-
 		}
 		// 断开连接
 		try {
@@ -115,18 +103,15 @@ public abstract class SocketTransceiver implements Runnable {
 			out = null;
 			socket = null;
 		} catch (IOException e) {
-			Log.e(TAG,"SOCKET 断开连接时出错");	
+			Log.e(TAG,"SOCKET offline error");
 		}
 		this.onDisconnect(addr);
 	}
 
-	/**
-	 * 接收到数�? 注意：此回调是在新线程中执行�? 连接到的Socket地址
-	 */
 	// 接受服务端发送过来的实时曲线数据
 	public abstract void onReceive(InetAddress addr, RealTime rTime);
 
-	// 接受服务端发送过来的槽状态数�?
+	// 接受服务端发送过来的槽状态数
 	public abstract void onReceive(InetAddress addr, PotStatusDATA potStatus);
 
 	public abstract void onDisconnect(InetAddress addr);

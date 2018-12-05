@@ -414,7 +414,6 @@ public class SlideBottomPanel extends FrameLayout {
 	}
 
 	private void computeVelocity() {
-		// units鏄崟浣嶈�?�绀猴紝 1浠ｈ〃px/姣�??, 1000浠ｈ〃px/绉�
 		mVelocityTracker.computeCurrentVelocity(1000, mMaxVelocity);
 		xVelocity = mVelocityTracker.getXVelocity();
 		yVelocity = mVelocityTracker.getYVelocity();

@@ -35,27 +35,27 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 public class UpdateManager {
-	/* 涓嬭浇涓� */
+
 	private static final int DOWNLOAD = 1;
-	/* 涓嬭浇缁撴潫 */
+
 	private static final int DOWNLOAD_FINISH = 2;
 	
 	private static final int NO_UPDATE = 3;
 	private static final int GET_UNDATAINFO_ERROR=4;
 	private static final int CAN_UPDATE=5;
 	private static final String TAG = "UpdateManager";
-	/* 淇濆瓨瑙ｆ瀽鐨刋ML淇℃伅 */
+
 	HashMap<String, String> mHashMap;
-	/* 涓嬭浇淇濆瓨璺緞 */
+
 	private String mSavePath;
-	/* 璁板綍杩涘害鏉℃暟閲� */
+
 	private int progress;
-	/* 鏄惁鍙栨秷鏇存柊 */
+
 	private boolean cancelUpdate = false;
 
 	private Context mContext;
 	private boolean IsShow=true;
-	/* 鏇存柊杩涘害鏉� */
+
 	private ProgressBar mProgress;
 	private Dialog mDownloadDialog;
 	//private String update_info="槽状态表增加（功能控制字）数据等";	
@@ -102,7 +102,6 @@ public class UpdateManager {
 	private int getVersionCode(Context context) {
 		int versionCode = 0;
 		try {
-			// 鑾峰彇杞欢鐗堟湰鍙凤紝瀵瑰簲AndroidManifest.xml涓媋ndroid:versionCode
 			versionCode = context.getPackageManager().getPackageInfo("com.hewaiming.ALWorkInfo", 0).versionCode;
 		} catch (NameNotFoundException e) {
 			Log.e(TAG, "NameNotFoundException");
@@ -114,7 +113,6 @@ public class UpdateManager {
 		
 		String versionName ="0" ;
 		try {
-			// 鑾峰彇杞欢鐗堟湰鍙凤紝瀵瑰簲AndroidManifest.xml涓媋ndroid:versionCode
 			versionName = context.getPackageManager().getPackageInfo("com.hewaiming.ALWorkInfo", 0).versionName;
 		} catch (NameNotFoundException e) {
 			Log.e(TAG, "NameNotFoundException");
@@ -122,25 +120,23 @@ public class UpdateManager {
 		return versionName;
 	}
 
-	/**
-	 * 鏄剧ず杞欢鏇存柊瀵硅瘽妗�
-	 */
+
 	private void showNoticeDialog() {
-		// 鏋勯�犲璇濇
+
 		AlertDialog.Builder builder = new Builder(mContext);		
 		builder.setTitle(R.string.soft_update_title);
 		
 		builder.setMessage(info.getInfo());
-		// 鏇存柊
+
 		builder.setPositiveButton(R.string.soft_update_updatebtn, new OnClickListener() {
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
 				dialog.dismiss();
-				// 鏄剧ず涓嬭浇瀵硅瘽妗�
+
 				showDownloadDialog();
 			}
 		});
-		// 绋嶅悗鏇存柊
+
 		builder.setNegativeButton(R.string.soft_update_later, new OnClickListener() {
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
@@ -151,30 +147,25 @@ public class UpdateManager {
 		noticeDialog.show();
 	}
 
-	/**
-	 * 鏄剧ず杞欢涓嬭浇瀵硅瘽妗�
-	 */
 	private void showDownloadDialog() {
-		// 鏋勯�犺蒋浠朵笅杞藉璇濇
+
 		AlertDialog.Builder builder = new Builder(mContext);
 		builder.setTitle(R.string.soft_updating);
-		// 缁欎笅杞藉璇濇澧炲姞杩涘害鏉�
+
 		final LayoutInflater inflater = LayoutInflater.from(mContext);
 		View v = inflater.inflate(R.layout.softupdate_progress, null);
 		mProgress = (ProgressBar) v.findViewById(R.id.update_progress);
 		builder.setView(v);
-		// 鍙栨秷鏇存柊
+
 		builder.setNegativeButton(R.string.soft_update_cancel, new OnClickListener() {
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
 				dialog.dismiss();
-				// 璁剧疆鍙栨秷鐘舵��
 				cancelUpdate = true;
 			}
 		});
 		mDownloadDialog = builder.create();
 		mDownloadDialog.show();
-		// 鐜板湪鏂囦欢
 		downloadApk();
 	}
 
@@ -190,47 +181,38 @@ public class UpdateManager {
 		@Override
 		public void run() {
 			try {
-				// 鍒ゆ柇SD鍗℃槸鍚﹀瓨鍦紝骞朵笖鏄惁鍏锋湁璇诲啓鏉冮檺
 				if (Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)) {
-					// 鑾峰緱瀛樺偍鍗＄殑璺緞
+
 					String sdpath = Environment.getExternalStorageDirectory() + "/";
 					mSavePath = sdpath + "download";
 					//URL url = new URL(mHashMap.get("url"));
 					URL url = new URL(info.getUrl());
-					// 鍒涘缓杩炴帴
 					HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 					conn.connect();
-					// 鑾峰彇鏂囦欢澶у皬
 					int length = conn.getContentLength();
-					// 鍒涘缓杈撳叆娴�
 					InputStream is = conn.getInputStream();
-
 					File file = new File(mSavePath);
-					// 鍒ゆ柇鏂囦欢鐩綍鏄惁瀛樺湪
+
 					if (!file.exists()) {
 						file.mkdir();
 					}
 					File apkFile = new File(mSavePath, info.getFilename());
 					FileOutputStream fos = new FileOutputStream(apkFile);
 					int count = 0;
-					// 缂撳瓨
+
 					byte buf[] = new byte[1024];
-					// 鍐欏叆鍒版枃浠朵腑
+
 					do {
 						int numread = is.read(buf);
 						count += numread;
-						// 璁＄畻杩涘害鏉′綅缃�
 						progress = (int) (((float) count / length) * 100);
-						// 鏇存柊杩涘害
 						mHandler.sendEmptyMessage(DOWNLOAD);
 						if (numread <= 0) {
-							// 涓嬭浇瀹屾垚
 							mHandler.sendEmptyMessage(DOWNLOAD_FINISH);
 							break;
 						}
-						// 鍐欏叆鏂囦欢
 						fos.write(buf, 0, numread);
-					} while (!cancelUpdate);// 鐐瑰嚮鍙栨秷灏卞仠姝笅杞�.
+					} while (!cancelUpdate);
 					fos.close();
 					is.close();
 				}
@@ -239,7 +221,6 @@ public class UpdateManager {
 			} catch (IOException e) {
 				Log.e(TAG, "IOException");
 			}
-			// 鍙栨秷涓嬭浇瀵硅瘽妗嗘樉绀�
 			mDownloadDialog.dismiss();
 		}
 	};
@@ -271,7 +252,7 @@ public class UpdateManager {
 			switch (type) {
 			case XmlPullParser.START_TAG:
 				if ("version".equals(parser.getName())) {
-					info.setVersion(parser.nextText()); // 获取版本号
+					info.setVersion(parser.nextText());
 				} else if ("url".equals(parser.getName())) {
 					info.setUrl(parser.nextText()); // 获取要升级的APK文件
 				} else if ("name".equals(parser.getName())) {
@@ -296,7 +277,6 @@ public class UpdateManager {
 				//int versionCode = getVersionCode(mContext);
 				String versionName=getVersionName(mContext);
 				String path = mContext.getResources().getString(R.string.serverUrl);
-				// 包装成url的对象
 				URL url = new URL(path);
 				HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 				conn.setConnectTimeout(5000);
@@ -312,7 +292,6 @@ public class UpdateManager {
 					 mHandler.sendMessage(msg);					
 				}
 			} catch (Exception e) {
-				// 待处理
 				Message msg = new Message();
 				msg.what = GET_UNDATAINFO_ERROR;
 				mHandler.sendMessage(msg);

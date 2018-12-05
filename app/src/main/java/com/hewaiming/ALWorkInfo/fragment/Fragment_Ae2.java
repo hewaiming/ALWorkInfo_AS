@@ -11,6 +11,7 @@ import com.hewaiming.ALWorkInfo.bean.AeRecord;
 import com.hewaiming.ALWorkInfo.ui.Ae5DayActivity;
 import com.hewaiming.ALWorkInfo.ui.PotVLineActivity;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
@@ -30,6 +31,7 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
+@SuppressLint("ValidFragment")
 public class Fragment_Ae2 extends Fragment implements OnScrollListener {
 	private View mView;
 	private RelativeLayout mHeadAe;
