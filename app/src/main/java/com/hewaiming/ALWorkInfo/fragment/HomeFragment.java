@@ -437,10 +437,14 @@ public class HomeFragment extends Fragment implements OnClickListener, HttpGetJX
 		if (NormPotS[1] != 0) {
 			xVals.add("一厂2区" + mDate[1]);
 			yVals.add(new BarEntry((float) YHLNDAvg[1], 1));
+		}else {
+			xVals.add("一厂2区" + mDate[1]);
 		}
 		if (NormPotS[2] != 0) {
 			xVals.add("一厂3区" + mDate[2]);
 			yVals.add(new BarEntry((float) YHLNDAvg[2], 2));
+		}else{
+			xVals.add("一厂3区" + mDate[2]);
 		}
 		if (PotS1 != 0 && Cnt1 != 0) {
 			xVals.add("一厂");
@@ -456,11 +460,16 @@ public class HomeFragment extends Fragment implements OnClickListener, HttpGetJX
 		if (NormPotS[4] != 0) {
 			xVals.add("二厂2区" + mDate[4]);
 			yVals.add(new BarEntry((float) YHLNDAvg[4], 5));
+		}else{
+			xVals.add("二厂2区" + mDate[4]);
 		}
 		if (NormPotS[5] != 0) {
 			xVals.add("二厂3区" + mDate[5]);
 			yVals.add(new BarEntry((float) YHLNDAvg[5], 6));
+		}else{
+			xVals.add("二厂3区" + mDate[5]);
 		}
+
 		if (PotS2 != 0 && Cnt2 != 0) {
 			xVals.add("二厂");
 			yVals.add(new BarEntry((float) YHLNDTotal2 / Cnt2, 7));
@@ -1060,10 +1069,14 @@ public class HomeFragment extends Fragment implements OnClickListener, HttpGetJX
 		if (NormPotS[1] != 0) {
 			xVals.add("一厂2区");
 			yVals.add(new BarEntry((float) DJWDSum[1] / NormPotS[1], 1));
+		}else{
+			xVals.add("一厂2区");
 		}
 		if (NormPotS[2] != 0) {
 			xVals.add("一厂3区");
 			yVals.add(new BarEntry((float) DJWDSum[2] / NormPotS[2], 2));
+		}else {
+			xVals.add("一厂3区");
 		}
 		if (PotS1 != 0) {
 			xVals.add("一厂");
@@ -1076,10 +1089,14 @@ public class HomeFragment extends Fragment implements OnClickListener, HttpGetJX
 		if (NormPotS[4] != 0) {
 			xVals.add("二厂2区");
 			yVals.add(new BarEntry((float) DJWDSum[4] / NormPotS[4], 5));
+		}else{
+			xVals.add("二厂2区");
 		}
 		if (NormPotS[5] != 0) {
 			xVals.add("二厂3区");
 			yVals.add(new BarEntry((float) DJWDSum[5] / NormPotS[5], 6));
+		}else{
+			xVals.add("二厂3区");
 		}
 		if (PotS2 != 0) {
 			xVals.add("二厂");
@@ -1265,10 +1282,15 @@ public class HomeFragment extends Fragment implements OnClickListener, HttpGetJX
 		if (NormPotS[1] != 0) {
 			xVals.add("一厂2区");
 			yVals.add(new BarEntry((float) AvgVSum[1] / NormPotS[1], 1));
+		}else{
+			xVals.add("一厂2区");//停槽
 		}
+
 		if (NormPotS[2] != 0) {
 			xVals.add("一厂3区");
 			yVals.add(new BarEntry((float) AvgVSum[2] / NormPotS[2], 2));
+		}else{
+			xVals.add("一厂3区");//停槽
 		}
 		if (PotS1 != 0) {
 			xVals.add("一厂");
@@ -1281,10 +1303,14 @@ public class HomeFragment extends Fragment implements OnClickListener, HttpGetJX
 		if (NormPotS[4] != 0) {
 			xVals.add("二厂2区");
 			yVals.add(new BarEntry((float) AvgVSum[4] / NormPotS[4], 5));
+		}else {
+			xVals.add("二厂2区");//stop
 		}
 		if (NormPotS[5] != 0) {
 			xVals.add("二厂3区");
 			yVals.add(new BarEntry((float) AvgVSum[5] / NormPotS[5], 6));
+		}else {
+			xVals.add("二厂3区");//stop
 		}
 		if (PotS2 != 0) {
 			xVals.add("二厂");
@@ -1515,10 +1541,15 @@ public class HomeFragment extends Fragment implements OnClickListener, HttpGetJX
 		if (NormPotS[1] != 0) {
 			xVals.add("一厂2区");
 			yVals.add(new BarEntry((float) AeCnt[1] / NormPotS[1], 1));
-		}
+		}else{
+            xVals.add("一厂2区");//停槽
+        }
 		if (NormPotS[2] != 0) {
 			xVals.add("一厂3区");
 			yVals.add(new BarEntry((float) AeCnt[2] / NormPotS[2], 2));
+		}else{
+			xVals.add("一厂3区");//停槽
+			//yVals.add(new BarEntry((float) 0, 2));
 		}
 		if (PotS1 != 0) {
 			xVals.add("一厂");
@@ -1531,10 +1562,15 @@ public class HomeFragment extends Fragment implements OnClickListener, HttpGetJX
 		if (NormPotS[4] != 0) {
 			xVals.add("二厂2区");
 			yVals.add(new BarEntry((float) AeCnt[4] / NormPotS[4], 5));
-		}
+		}else{
+            xVals.add("二厂2区");//停槽
+        }
 		if (NormPotS[5] != 0) {
 			xVals.add("二厂3区");
 			yVals.add(new BarEntry((float) AeCnt[5] / NormPotS[5], 6));
+		}else{
+			xVals.add("二厂3区"); //停槽
+			//yVals.add(new BarEntry((float) 0, 6));
 		}
 		if (PotS2 != 0) {
 			xVals.add("二厂");
@@ -1763,7 +1799,7 @@ public class HomeFragment extends Fragment implements OnClickListener, HttpGetJX
 						break;
 					}
 					i++;
-				} while (i < 2);// 取正常槽数据失败，2次重试机会
+				} while (i < 2);// 取正常槽数据失败，1次重试机会
 				if (!FoundData1) {
 					handler.post(new Runnable() {
 						@Override
@@ -1945,7 +1981,7 @@ public class HomeFragment extends Fragment implements OnClickListener, HttpGetJX
 	}
 
 	protected Boolean checkGlobalData() {
-		if (GetJXCnt > 3) {
+		if (GetJXCnt > 2) {
 			tvTitle.setTextSize(14);
 			tvTitle.setText("工作站:" + "网络太卡或请检查远程服务器IP和端口是否正确！");
 			return false;
@@ -1954,7 +1990,7 @@ public class HomeFragment extends Fragment implements OnClickListener, HttpGetJX
 			init_GetJXRecord();
 		}
 
-		if (GetDateCnt > 3) {
+		if (GetDateCnt > 2) {
 			tvTitle.setTextSize(14);
 			tvTitle.setText("工作站:" + "网络太卡或请检查远程服务器IP和端口是否正确！");
 			return false;
@@ -1979,11 +2015,11 @@ public class HomeFragment extends Fragment implements OnClickListener, HttpGetJX
 				if (sp.getString("port", String.valueOf(port)) != null) {
 					port = Integer.parseInt(sp.getString("port", String.valueOf(port)));
 				} else {
-					Toast.makeText(ctx, "请设置远程服务器端口", 0).show();
+					Toast.makeText(ctx, "请设置远程服务器端口", Toast.LENGTH_SHORT).show();
 					return false;
 				}
 			} else {
-				Toast.makeText(ctx, "请设置远程服务器IP", 0).show();
+				Toast.makeText(ctx, "请设置远程服务器IP", Toast.LENGTH_SHORT).show();
 				return false;
 			}
 			return true;
