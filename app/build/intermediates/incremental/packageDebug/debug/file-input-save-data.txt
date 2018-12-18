@@ -1,25 +1,25 @@
 #Internal package file, do not edit.
-#Thu May 31 09:54:44 CST 2018
+#Tue Dec 18 11:02:51 CST 2018
 7.path=ShareSDK.xml
-2.base=E\:\\ALWorkInfo_AS\\app\\build\\intermediates\\assets\\debug
+2.base=E\:\\ALWorkInfo_AS\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
 5.set=DEX
 0.path=classes.dex
 2.baseType=DIRECTORY
-3.base=E\:\\ALWorkInfo_AS\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+3.base=E\:\\ALWorkInfo_AS\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\16
 7.baseType=DIRECTORY
-2.set=ASSET
-1.path=classes.dex
-4.base=E\:\\ALWorkInfo_AS\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\16
+2.set=DEX
+1.path=OpenSans-Regular.ttf
+4.base=E\:\\ALWorkInfo_AS\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
 7.set=ASSET
 count=8
 5.baseType=DIRECTORY
-2.path=OpenSans-Regular.ttf
-5.base=E\:\\ALWorkInfo_AS\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
+2.path=classes.dex
+5.base=E\:\\ALWorkInfo_AS\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
 4.set=DEX
 3.path=classes.dex
-6.base=E\:\\ALWorkInfo_AS\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
+6.base=E\:\\ALWorkInfo_AS\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\17
 3.baseType=DIRECTORY
-1.set=DEX
+1.set=ASSET
 4.path=classes.dex
 7.base=E\:\\ALWorkInfo_AS\\app\\build\\intermediates\\assets\\debug
 6.set=DEX
@@ -30,6 +30,6 @@ count=8
 0.baseType=DIRECTORY
 3.set=DEX
 6.path=classes.dex
-1.base=E\:\\ALWorkInfo_AS\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
+1.base=E\:\\ALWorkInfo_AS\\app\\build\\intermediates\\assets\\debug
 4.baseType=DIRECTORY
 0.set=DEX

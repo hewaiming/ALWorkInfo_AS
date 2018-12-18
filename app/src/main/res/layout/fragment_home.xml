@@ -88,10 +88,30 @@
                     android:textColor="@color/theme_green"
                     android:textSize="12sp" />
 
+
+              <!--  <io.netopen.hotbitmapgg.library.view.RingProgressBar
+                    android:id="@+id/progress_bar_pots"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginTop="4dp"
+                    app:max="100"
+                    app:ringColor="@color/colorPrimary"
+                    app:ringProgressColor="@color/colorPrimaryDark"
+                    app:ringWidth="3dp"
+                    app:style="FILL"
+                    app:textColor="@color/colorPrimary"
+                    app:textIsShow="true"
+                    app:textSize="16sp" />-->
+
                 <ImageView
                     android:id="@+id/iv_refresh_pots"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
+                    android:visibility="visible"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentTop="true"
                     android:layout_centerVertical="true"

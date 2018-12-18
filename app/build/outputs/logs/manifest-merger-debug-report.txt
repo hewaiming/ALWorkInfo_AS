@@ -7,10 +7,10 @@ INJECTED from E:\ALWorkInfo_AS\app\src\main\AndroidManifest.xml:2:1-167:12
 MERGED from [:slideShowView] E:\ALWorkInfo_AS\slideShowView\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:oneKeyShare] E:\ALWorkInfo_AS\oneKeyShare\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-23:12
 MERGED from [:badgeViewLib] E:\ALWorkInfo_AS\badgeViewLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\32c847d148a4a6d9f6294abb164af0a0\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\9f210dc0a3944839d91a182c3648d8fd\AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\11c4c87948eb8d495dd34617c4745910\AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\c4638bdd9d0c6f100e206aeca77f1d8f\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\f9a0a9d43821e37101cb3b4a5862e486\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\fe4bfaf81ba7932ce72ac10a63f56df3\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\028a6efcd100caf780f1b5d359c548bf\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\ff7eb21ff2e06d5fb67ed64146e2ff42\AndroidManifest.xml:17:1-24:12
 INJECTED from E:\ALWorkInfo_AS\app\src\main\AndroidManifest.xml:2:1-167:12
 INJECTED from E:\ALWorkInfo_AS\app\src\main\AndroidManifest.xml:2:1-167:12
 INJECTED from E:\ALWorkInfo_AS\app\src\main\AndroidManifest.xml:2:1-167:12
@@ -38,18 +38,18 @@ MERGED from [:oneKeyShare] E:\ALWorkInfo_AS\oneKeyShare\build\intermediates\mani
 MERGED from [:oneKeyShare] E:\ALWorkInfo_AS\oneKeyShare\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:badgeViewLib] E:\ALWorkInfo_AS\badgeViewLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-44
 MERGED from [:badgeViewLib] E:\ALWorkInfo_AS\badgeViewLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\32c847d148a4a6d9f6294abb164af0a0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\32c847d148a4a6d9f6294abb164af0a0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\9f210dc0a3944839d91a182c3648d8fd\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\9f210dc0a3944839d91a182c3648d8fd\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\11c4c87948eb8d495dd34617c4745910\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\11c4c87948eb8d495dd34617c4745910\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\c4638bdd9d0c6f100e206aeca77f1d8f\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\c4638bdd9d0c6f100e206aeca77f1d8f\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\f9a0a9d43821e37101cb3b4a5862e486\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\f9a0a9d43821e37101cb3b4a5862e486\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\fe4bfaf81ba7932ce72ac10a63f56df3\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\fe4bfaf81ba7932ce72ac10a63f56df3\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\028a6efcd100caf780f1b5d359c548bf\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\028a6efcd100caf780f1b5d359c548bf\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\ff7eb21ff2e06d5fb67ed64146e2ff42\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\ff7eb21ff2e06d5fb67ed64146e2ff42\AndroidManifest.xml:20:5-43
 INJECTED from E:\ALWorkInfo_AS\app\src\main\AndroidManifest.xml:7:5-9:41
 INJECTED from E:\ALWorkInfo_AS\app\src\main\AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\32c847d148a4a6d9f6294abb164af0a0\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\f9a0a9d43821e37101cb3b4a5862e486\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		ADDED from E:\ALWorkInfo_AS\app\src\main\AndroidManifest.xml:9:9-38
 		INJECTED from E:\ALWorkInfo_AS\app\src\main\AndroidManifest.xml
@@ -122,14 +122,14 @@ MERGED from [:oneKeyShare] E:\ALWorkInfo_AS\oneKeyShare\build\intermediates\mani
 MERGED from [:oneKeyShare] E:\ALWorkInfo_AS\oneKeyShare\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:5-21:19
 MERGED from [:badgeViewLib] E:\ALWorkInfo_AS\badgeViewLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-20
 MERGED from [:badgeViewLib] E:\ALWorkInfo_AS\badgeViewLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\32c847d148a4a6d9f6294abb164af0a0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\32c847d148a4a6d9f6294abb164af0a0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\9f210dc0a3944839d91a182c3648d8fd\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\9f210dc0a3944839d91a182c3648d8fd\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\11c4c87948eb8d495dd34617c4745910\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\11c4c87948eb8d495dd34617c4745910\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\c4638bdd9d0c6f100e206aeca77f1d8f\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\c4638bdd9d0c6f100e206aeca77f1d8f\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\f9a0a9d43821e37101cb3b4a5862e486\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\f9a0a9d43821e37101cb3b4a5862e486\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\fe4bfaf81ba7932ce72ac10a63f56df3\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\fe4bfaf81ba7932ce72ac10a63f56df3\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\028a6efcd100caf780f1b5d359c548bf\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\028a6efcd100caf780f1b5d359c548bf\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\ff7eb21ff2e06d5fb67ed64146e2ff42\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\ff7eb21ff2e06d5fb67ed64146e2ff42\AndroidManifest.xml:22:5-20
 	android:supportsRtl
 		ADDED from [:slideShowView] E:\ALWorkInfo_AS\slideShowView\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:9-35
 	android:label

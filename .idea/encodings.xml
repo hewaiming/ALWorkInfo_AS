@@ -28,9 +28,10 @@
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/hewaiming/ALWorkInfo/fragment/Fragment_AeTime.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/hewaiming/ALWorkInfo/fragment/HomeFragment.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/hewaiming/ALWorkInfo/net/NetDetector.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/hewaiming/ALWorkInfo/ui/AbNormalMostActivity.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/hewaiming/ALWorkInfo/ui/MainActivity.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/hewaiming/ALWorkInfo/ui/SettingActivity.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/hewaiming/ALWorkInfo/ui/WelcomeActivity.java" charset="GBK" />
-    <file url="PROJECT" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

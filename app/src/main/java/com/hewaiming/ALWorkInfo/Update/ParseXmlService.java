@@ -23,7 +23,6 @@ public class ParseXmlService
 		DocumentBuilder builder = factory.newDocumentBuilder();
 		Document document = builder.parse(inStream);
 		Element root = document.getDocumentElement();
-		//获得所有子节点
 		NodeList childNodes = root.getChildNodes();
 		for (int j = 0; j < childNodes.getLength(); j++)
 		{
